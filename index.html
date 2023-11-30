@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Hello!</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <div id="app">
+        <h1>{{ title }}</h1>
+        <p>{{ message }}</p>
+        <div>
+            <img v-bind:src="image" alt="Vue image">
+        </div>
+    </div>
+
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
